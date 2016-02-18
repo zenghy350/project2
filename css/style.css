@@ -1,0 +1,109 @@
+*{
+	 margin:0;
+	 padding:0;
+}
+
+body{
+	text-align:center;
+	font-family:微软雅黑; 
+}
+
+.headbar{
+    width:1000px;
+    height:100px;
+    margin:0 auto;
+}
+    
+.left{
+    float: left;
+    margin:22px 0px;
+}
+     
+.right{
+    float: right;
+    margin:10px 0px;
+}
+
+.navigation{
+	width:100%;
+	height:50px;
+	background:#3a3e43;
+}
+
+.menu{
+	float: left;
+	width:800px;
+	height:38px; 
+	background:#3a3e43;
+	padding:0px 0px 0px 170px;
+}
+
+ul{
+	height:40px;
+	text-align: center;
+	font-size:15px;
+    color:#FFFFFF;
+}
+
+li{
+	float:left;
+	height:35px;
+	padding:5px 20px;
+}
+
+.telephone{
+	float: right;
+	margin:0px 199px 0px 0px;
+}
+
+.connection{
+	width:1000px;
+	height:250px;
+	margin:0 auto;
+}
+
+.pic{
+	text-align:left;
+	padding:20px 150px;
+}
+
+.pic li{
+	float:left;
+	width:300px;
+	height:90px;
+	color:#a3a3a3;
+}
+
+.pic li img{
+	float:left;
+	width:65px;
+	height:65px;
+	padding:0px 10px;
+}
+
+.pic h3{
+	font-size:18px;
+	color:#222222;
+	padding:0px 0px 5px 0px;
+}
+
+.pic p{
+	font-size:10px;
+}
+
+.footbar{
+	width:100%;
+	height:120px;
+	background:#e7e7e7;
+	border-top:1px solid #d3d3d3;
+	margin:50px 0px;
+	text-align:center;
+}
+
+.foot{
+	margin:26px 0px;
+}
+
+.foot p{
+	font-size:16px;
+}
