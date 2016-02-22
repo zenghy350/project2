@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style3.css">
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+<div class="images">
+	<div class="images-top">
+		<img id="big" src="images/1.jpg" width="1100px" height="550px">
+	</div>
+	<div class="images-menu">
+		<div class="small">
+			<img src="images/1.jpg" width="175px" height="140px">
+		</div>
+		<div class="small">
+			<img src="images/2.jpg" width="175px" height="140px">
+		</div>
+		<div class="small">
+			<img src="images/3.jpg" width="175px" height="140px">
+		</div>
+		<div class="small">
+			<img src="images/4.jpg" width="175px" height="140px">
+		</div>
+		<div class="small">
+			<img src="images/5.jpg" width="175px" height="140px">
+		</div>
+	</div>
+</div>
+<script>
+/**
+var big=document.getElementById("big");//找到id为big的img
+var small=document.getElementsByClassName("small");//找到class为small的所以div
+for(var i=0;i<small.length;i++){//循环div中的每个元素，
+	small[i].onclick=function(){//给div的每个元素添加点击事件
+		var img=this.getElementsByTagName("img")[0];//找出div下面的第一个img
+		big.src=img.src;//将该图片img地址赋给大图的img地址
+	}
+}
+**/
+
+$('.small img').click(function(e){
+	$('#big').attr('src', $(this).attr('src'));
+})
+</script>
+</body>
+</html>
